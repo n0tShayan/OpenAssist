@@ -1,0 +1,5 @@
+# The GNU toolchain ships its own linker, so no Visual Studio C++ workload is
+# needed. The MSVC toolchain works too if you have it: `cargo +stable-msvc build`.
+[toolchain]
+channel = "stable-x86_64-pc-windows-gnu"
+profile = "minimal"
